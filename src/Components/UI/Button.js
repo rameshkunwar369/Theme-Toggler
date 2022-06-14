@@ -11,7 +11,7 @@ const Button = () => {
   return (
     <div className="button-wrapper">
       <button onClick={changeTheme} className={darkTheme ? "btn-dark" : "btn-light"}>
-        Click Mes
+      {darkTheme ? "Turn Off Dark Mode": "Turn On Dark Mode"}
       </button>
     </div>
   );
