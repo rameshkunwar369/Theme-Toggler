@@ -1,0 +1,23 @@
+.background {
+  min-height: 80vh;
+  transition: 0.5s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+.background-dark {
+  background-color: #18191b;
+}
+.background-light {
+  background-color: #f1f2f6;
+}
+.background h1{
+  font-size: 4rem;
+}
+.background h1.font-dark {
+  color: #18191b;
+}
+.background h1.font-light {
+  color: #f1f2f6;
+}

@@ -1,0 +1,25 @@
+.button-wrapper{
+  
+   /* margin: 3rem; */
+  padding: 4rem;
+    display: flex;
+    justify-content: center;
+}
+button{
+    padding: 1rem 2rem;
+    display: block;
+
+    font-weight: bold;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+.btn-dark{
+    background-color:#18191b ; 
+    color: #f1f2f6;
+    border: 2px solid  #f1f2f6;
+ }
+ .btn-light{
+     background-color: #f1f2f6;
+     border: 2px solid #18191b;
+     color: #18191b;
+ }
